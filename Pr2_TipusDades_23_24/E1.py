@@ -12,4 +12,4 @@ r = float(input("Vols saber la superfície d'una pizza? Doncs passem el seu radi
 
 supericie =
 
-ddfdfdf
+ddfdfdfdf
