@@ -2,14 +2,13 @@
 Jofre Aleman i Daniel Arco
 09/10/2023
 ASIXc M03-UF1 A2 pr2
-
+Exercici 1: Demanar el diàmetre d'una pizza rodona i imprimeix la seva superfície.
 """
-##Demanar el diàmetre d'una pizza rodona i imprimeix la seva superfície. Pots usar Math.PI per escriure el valor de Pi.
+
 import math
 
-r = float(input("Vols saber la superfície d'una pizza? Doncs passem el seu radi en cm!\n : "))
+superficie_input = float(input("Vols saber la superfície d'una pizza? Doncs passem la seva superficie!\n : "))
 
 
-supericie_output = 2 * math.pi * r**2
+supericie_output =
 
-print(f"El seu diamtre es de {r} cm")
