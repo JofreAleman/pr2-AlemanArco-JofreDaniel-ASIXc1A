@@ -1,3 +1,9 @@
+"""
+Jofre Aleman i Daniel Arco
+09/10/2023
+ASIXc M03-UF1 A2 pr2
+
+"""
 ##Demanar el diàmetre d'una pizza rodona i imprimeix la seva superfície. Pots usar Math.PI per escriure el valor de Pi.
 import math
 
