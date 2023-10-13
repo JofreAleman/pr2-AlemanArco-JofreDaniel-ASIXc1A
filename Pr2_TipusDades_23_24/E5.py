@@ -1,7 +1,10 @@
 """
-Demana una paraula per teclat i mostrar-la per pantalla, canviar les vocals per als numèrics 1, 2, 3, 4 o 5.
-Tenint en compte, que la lletra a i A és l'1, consecutivament fins a la lletra u i U que és el 5.
+Jofre Aleman i Daniel Arco
+09/10/2023
+ASXIc M03-UF1 A2 pr2
 
+Exercici 5: Demana una paraula per teclat i mostrar-la per pantalla, canviar les vocals per als numèrics 1, 2, 3, 4 o 5.
+Tenint en compte, que la lletra a i A és l'1, consecutivament fins a la lletra u i U que és el 5.
 """
 
 
