@@ -9,11 +9,13 @@ altre rang. Mostra True si el cinquè valor, està comprès dins els dos rangs, 
 
 llista = input("Escriu una llista de 5 nombres enters aleatoris, separats entre ells per ',': ")
 
+#Separem els valors amb la ,
 llista_valors = llista.split(',')
 
-# Convierte los elementos a enteros
+# Converteix els element a enters
 llista_valors = [int(valor) for valor in llista_valors]
 
+#Determinem el "rang"
 llista1 = llista_valors[:2]
 llista2 = llista_valors[2:4]
 llista3 = llista_valors[-1]
@@ -22,6 +24,7 @@ print("llista1:", llista1)
 print("llista2:", llista2)
 print("llista3:", llista3)
 
+#Mirem si l'ultim valor esta dins dels dos rangs o no
 if (min(llista1) <= llista3 <= max(llista1)) and (min(llista2) <= llista3 <= max(llista2)):
     print("True")
 else:

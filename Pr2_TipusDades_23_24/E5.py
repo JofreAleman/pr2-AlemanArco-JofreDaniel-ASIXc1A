@@ -7,13 +7,14 @@ Exercici 5: Demana una paraula per teclat i mostrar-la per pantalla, canviar les
 Tenint en compte, que la lletra a i A és l'1, consecutivament fins a la lletra u i U que és el 5.
 """
 
-
+#Demanem la paraula
 paraula = input("Escriu una paraula. El que farà aquest programa serà substituir les vocals de la paraula per "
                      "als númerics 1, 2, 3, 4 o 5.\n"
                      "La lletra A és l'1, consecutivament fins la lletra U que és el 5:  ")
 
 paraula_cambiada = ""
 
+#Fem totes les oprecions necesaries perque substitueixi cada vocal per un numero en concret
 for lletra in paraula:
     if lletra == 'a' or lletra == 'A':
         paraula_cambiada += '1'

@@ -9,9 +9,10 @@ Consultar: Python If Statement. La sentència if es veurà a més detalls
  en el proper tema.
  """
 
-
+#Demanem l'edat
 edat = int(input("Això es un programa que et diu si tens edat per traballar o no. Introdueix la teva edat: "))
 
+#Mirem si es menor o major de 16 o 65 per saber si pot o no treballar
 if edat < 16 or edat > 65:
     print("No tens l'edat suficient per traballar.")
 else:

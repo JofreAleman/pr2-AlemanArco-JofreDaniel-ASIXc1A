@@ -11,10 +11,12 @@ Cal mostrar per pantalla: “El volum de l’aula és xxx m3
 print("Per fer un estudi de la ventilació duna aula, necessitem calcular el volum d'aquesta. Si us plau introdueix les "
       "dades següents. ")
 
+#Demanem les dades necessaries
 b = float(input("Introdueix la base de la habitació: "))
 h = float(input("Introdueix l'altura de la habitació: "))
 a = float(input("Introdueix l'amplada de l'habitació: "))
 
+#Calculem el volum amb la seva formula
 volum = a * b * h
 
 print(f"El volum de l'habitació té un total de {volum} m³.")
